@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-	"name": "Java",
+	"name": "Junit5_DevContainer",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/java:0-17",
 
@@ -15,8 +15,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				// Extension Pack for Java
 				"vscjava.vscode-java-pack",
+				// Gradle for Java
 				"vscjava.vscode-gradle",
+				// Language Support for Java(TM) by Red Hat
 				"redhat.java"
 			]
 		}
