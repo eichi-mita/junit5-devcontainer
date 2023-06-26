@@ -6,6 +6,7 @@ Junit5の実行環境をVisual Studio CodeのDev Containerを使用して構築�
 - いずれかのDocker環境がローカルで起動していること
   - [Rancher Desktop](https://rancherdesktop.io/)
   - [Multipass](https://kurupeku.github.io/hello-golang/multipass.html)
+  - [WSL2](https://kurupeku.github.io/hello-golang/wsl.html)(Ubuntuでの動作は確認済み)
 - [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code)がインストールされていること
 - [Remote Development 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)がインストールされていること
 
@@ -15,7 +16,7 @@ Junit5の実行環境をVisual Studio CodeのDev Containerを使用して構築�
 ![image](https://github.com/eichi-mita/junit5-devcontainer/assets/120150437/39cbd772-fac7-425c-9c89-5dd7ed14a4ab)
 
 ## 使用方法
-- このリポジトリをローカルの任意のディレクトリにcloneします
+- このリポジトリをローカルの任意のディレクトリ(WSL2の場合はWSL上の任意のディレクトリ)にcloneします
   ```
   git clone https://github.com/eichi-mita/junit5-devcontainer.git
   ```
@@ -54,5 +55,5 @@ bb6a3b429081   vsc-tdd-bootcamp-3831fdb6707d0cbca31f5d76b38476e6f59389e842f6fdf0
 
 ![image](https://github.com/eichi-mita/junit5-devcontainer/assets/120150437/40bef715-9ec7-4765-ae94-15b94b94463a)
 
-- 終了したい時は　左下の青い`><`アイコンをクリックし、　`Close Remote Connection`を選択してください。
+- 終了したい時は　左下の青い`><`アイコンをクリックし、　`Close Remote Connection`を選択してください。(WSL2の場合は`Reopen Folder in WSL`)
 
