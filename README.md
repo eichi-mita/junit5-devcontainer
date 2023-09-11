@@ -4,6 +4,7 @@ Junit5の実行環境をVisual Studio CodeのDev Containerを使用して構築�
 
 ## セットアップ
 - いずれかのDocker環境がローカルで起動していること
+  - Docker Desktop
   - [Rancher Desktop](https://rancherdesktop.io/)
   - [Multipass](https://kurupeku.github.io/hello-golang/multipass.html)
   - [WSL2](https://kurupeku.github.io/hello-golang/wsl.html)(Ubuntuでの動作は確認済み)
@@ -43,7 +44,7 @@ Junit5の実行環境をVisual Studio CodeのDev Containerを使用して構築�
 ```
 % docker ps
 CONTAINER ID   IMAGE                                                                                        COMMAND                   CREATED          STATUS          PORTS     NAMES
-bb6a3b429081   vsc-tdd-bootcamp-3831fdb6707d0cbca31f5d76b38476e6f59389e842f6fdf02dd08837576b7296-features   "/bin/sh -c 'echo Co…"   23 seconds ago   Up 21 seconds             romantic_torvalds
+bb6a3b429081   vsc-junit5-devcontainer-3831fdb6707d0cbca31f5d76b38476e6f59389e842f6fdf02dd08837576b7296-features   "/bin/sh -c 'echo Co…"   23 seconds ago   Up 21 seconds             romantic_torvalds
 ```
 - 起動し切るまでちょっと掛かります
     - サンプルとして置いている`src/test/java/TodoTest.java`を開いておいて、テスト実行ボタンが表示されたら使える状態です
